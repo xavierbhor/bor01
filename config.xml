@@ -11,4 +11,19 @@
         Bor01 bot control
     </description>
 
+ 	<author email="xaierbhor@gmail.com">
+        Xavier Bhor
+    </author>
+    
+    <feature name="http://api.phonegap.com/1.0/device" />
+	    <preference name="permissions" value="none" />
+    	<preference name="orientation" value="portrait" />
+	    <preference name="target-device" value="universal" />
+    	<preference name="fullscreen" value="true" />
+    	<preference name="exit-on-suspend" value="false" />
+    	<preference name="android-minSdkVersion" value="7" />
+    	<preference name="android-installLocation" value="auto" />
+
+    	<access origin="*" />
+
 </widget>
